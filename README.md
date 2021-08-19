@@ -12,6 +12,11 @@ Docker起動
 docker-compose up -d --build
 ```
 
+npm プロジェクト作成
+```
+docker exec -it node npm init
+```
+
 コンテナに入る
 ```
 docker exec -it node sh
